@@ -1,14 +1,35 @@
-一、软件版本
-TypeScript Nodejsv19.7.0 Vue3 Nuxt3 Prisma trpc
 
-二、清理启动命令
+# 项目名称
+
+## 软件版本
+
+- TypeScript
+- Node.js v19.7.0
+- Vue 3
+- Nuxt 3
+- Prisma
+- trpc
+
+## 清理和启动命令
+
+清理和启动命令用于准备和启动项目。请按以下步骤执行：
+
+```bash
+# 清理项目
 rm -rf node_modules package-lock.json
 npm cache clean --force
 npm install
 rm -rf .nuxt
-npm run dev
 
-三、工程结构
+# 启动项目
+npm run dev
+```
+
+## 工程结构
+
+项目的工程结构如下：
+
+```
 project-name/
 |-- assets/                 # 用于组织未编译的静态资源如 LESS、SASS 或 JavaScript
 |-- components/             # Vue 组件
@@ -24,5 +45,8 @@ project-name/
 |-- package.json            # 项目依赖和脚本
 |-- README.md               # 项目 README 文件
 |-- tsconfig.json           # TypeScript 配置文件
+```
 
-四、目标：通过模仿目标网站：www.chacewang.com 形成团队前端框架
+## 项目目标
+
+本项目的目标是通过模仿目标网站 [www.chacewang.com](www.chacewang.com) 来形成团队前端框架。
