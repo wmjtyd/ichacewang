@@ -52,6 +52,6 @@ project-name/
 本项目的目标是通过模仿目标网站 [www.chacewang.com](www.chacewang.com) 来形成团队前端框架。
 
 ## github 提交修改
-git add 修改的文件
-git commit -m "更新 的内容"
-git push origin main
+- git add 修改的文件
+- git commit -m "更新 的内容"
+- git push origin main
