@@ -19,3 +19,9 @@ import Footer from '@/components/Footer.vue';
 <style>
 /* 这里放置全局样式 */
 </style>
+
+<!--
+<template>
+  <div>index.vue works!</div>
+</template>
+-->
