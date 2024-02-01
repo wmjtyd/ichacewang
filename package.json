@@ -22,6 +22,7 @@
     "@heroicons/vue": "^2.1.1",
     "@nuxt/kit": "^3.9.3",
     "echarts": "^5.4.3",
+    "echarts-countries-js": "^1.0.5",
     "element-plus": "^2.5.3"
   }
 }
