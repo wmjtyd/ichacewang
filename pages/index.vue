@@ -1,18 +1,20 @@
 <template>
   <Header />
-  <MainSection />
-  <ServiceSection />
-  <InformationSection />
-  <NewsSection />
+  <Carousel />
+  <SearchSection />
+  <PolicyStatisticalSection />
+  <PolicyNewsSection />
+  <PolicyServiceSection />
   <Footer />
 </template>
 
 <script setup>
 import Header from '@/components/Header.vue';
-import MainSection from '@/components/MainSection.vue';
-import ServiceSection from '@/components/ServiceSection.vue';
-import InformationSection from '@/components/InformationSection.vue';
-import NewsSection from '@/components/NewsSection.vue';
+import Carousel from '@/components/Carousel.vue';
+import SearchSection from '@/components/SearchSection.vue';
+import PolicyStatisticalSection from '@/components/PolicyStatisticalSection.vue';
+import PolicyNewsSection from '@/components/PolicyNewsSection.vue';
+import PolicyServiceSection from '@/components/PolicyServiceSection.vue';
 import Footer from '@/components/Footer.vue';
 </script>
 

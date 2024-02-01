@@ -1,83 +1,31 @@
 <template>
-  <header class="main-header">
-    <nav class="navbar">
-      <div class="container">
-        <!-- Logo -->
-        <div class="logo">
-          <nuxt-link to="/">CHACEWANG.COM</nuxt-link>
-        </div>
+  <header class="bg-blue-600 text-white">
+    <nav class="max-w-7xl mx-auto px-4 py-3 flex justify-between items-center">
+      <!-- Logo -->
+      <div class="text-lg font-bold">
+        <nuxt-link to="/" class="hover:text-gray-300">CHACEWANG.COM</nuxt-link>
+      </div>
 
-        <!-- Navigation Links -->
-        <div class="navbar-menu">
-          <nuxt-link class="navbar-item" to="/">首页</nuxt-link>
-          <nuxt-link class="navbar-item" to="/about">公司介绍</nuxt-link>
-          <!-- Add more links as needed -->
-          <nuxt-link class="navbar-item" to="/services">金融服务</nuxt-link>
-          <nuxt-link class="navbar-item" to="/news">新闻中心</nuxt-link>
-          <nuxt-link class="navbar-item" to="/contact">联系我们</nuxt-link>
-        </div>
-
-        <!-- Right Aligned Items -->
-        <div class="navbar-end">
-          <nuxt-link class="navbar-item" to="/login">注册/登录</nuxt-link>
-          <nuxt-link class="navbar-item" to="/profile">会员中心</nuxt-link>
-          <!-- Search or other icons can go here -->
-        </div>
+      <!-- Navigation Links -->
+      <div class="hidden md:flex md:items-center md:gap-4">
+        <nuxt-link class="hover:bg-blue-700 px-3 py-2 rounded" to="/">首页</nuxt-link>
+        <nuxt-link class="hover:bg-blue-700 px-3 py-2 rounded" to="/about">公司介绍</nuxt-link>
+        <nuxt-link class="hover:bg-blue-700 px-3 py-2 rounded" to="/services">查政策</nuxt-link>
+        <nuxt-link class="hover:bg-blue-700 px-3 py-2 rounded" to="/news">查企业</nuxt-link>
+        <nuxt-link class="hover:bg-blue-700 px-3 py-2 rounded" to="/contact">政策匹配</nuxt-link>
+        <nuxt-link class="hover:bg-blue-700 px-3 py-2 rounded" to="/contact">企业诊断</nuxt-link>
+        <nuxt-link class="hover:bg-blue-700 px-3 py-2 rounded" to="/contact">政策工具</nuxt-link>
+        <nuxt-link class="hover:bg-blue-700 px-3 py-2 rounded" to="/contact">商务合作</nuxt-link>
+      </div>
+      <!-- Right Aligned Items, separated with a border or different background -->
+      <div class="hidden md:flex md:items-center md:gap-2 md:border-l md:border-white md:pl-4">
+        <nuxt-link class="hover:bg-blue-800 px-3 py-2 rounded" to="/login">注册/登录</nuxt-link>
+        <nuxt-link class="hover:bg-blue-800 px-3 py-2 rounded" to="/profile">会员中心</nuxt-link>
       </div>
     </nav>
   </header>
 </template>
 
 <script setup>
-// Import the NuxtLink component if needed, though it should be globally registered in Nuxt 3
+// Script setup is empty since no additional JavaScript is needed for this example
 </script>
-
-<style scoped>
-.main-header {
-  background-color: #007BFF; /* Change this to match the exact blue color from the design */
-  color: white;
-  padding: 1rem 0;
-}
-
-.navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 100%;
-  max-width: 1200px;
-  margin: 0 auto;
-}
-
-.logo {
-  font-size: 1.5rem;
-  font-weight: bold;
-}
-
-.navbar-menu {
-  display: flex;
-  align-items: center;
-  gap: 1rem;
-}
-
-.navbar-item {
-  color: white;
-  text-decoration: none;
-  padding: 0.5rem 1rem;
-}
-
-.navbar-item:hover {
-  background-color: rgba(255, 255, 255, 0.2);
-}
-
-.navbar-end {
-  display: flex;
-  align-items: center;
-  gap: 1rem;
-}
-</style>

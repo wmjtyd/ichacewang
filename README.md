@@ -18,8 +18,8 @@
 # 清理项目
 rm -rf node_modules package-lock.json
 npm cache clean --force
-npm install
 rm -rf .nuxt
+npm install
 
 # 启动项目
 npm run dev
